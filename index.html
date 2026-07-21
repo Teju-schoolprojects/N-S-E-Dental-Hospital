@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>N S E Dental Hospital - Advanced Dental Clinic in Palladam, Tirupur</title>
+  <meta name="description" content="N S E Dental Hospital in Palladam offers painless Root Canal (RCT), Wisdom Tooth Extraction, Bleeding Gums care & Wheelchair Accessible facilities. Est. 2001. Call +91 98655 21717.">
+  <meta name="keywords" content="NSE Dental Hospital, Dental Clinic Palladam, Root Canal Palladam, Dentist near Angalamman Kovil, Dr Sathyamurthy dentist, Dr Rajeshwari dentist, Wisdom tooth extraction Tirupur">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Design System Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement / Info Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-flex">
+      <div class="top-info">
+        <div class="top-info-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Nanna Sahib Street, Opp. Angalamman Kovil, Palladam</span>
+        </div>
+        <div class="top-info-item">
+          <i class="fa-solid fa-clock"></i>
+          <span>Mon - Sat: 8:45 AM - 7:00 PM</span>
+        </div>
+      </div>
+      <div class="top-info">
+        <div class="top-info-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:9865521717" style="color:white; font-weight:700;">+91 98655 21717</a>
+        </div>
+        <span class="badge-emergency"><i class="fa-solid fa-bolt"></i> Emergency Dental Care</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="container navbar">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-tooth"></i>
+        </div>
+        <div class="logo-text">
+          <h1>N S E Dental</h1>
+          <span>Hospital • Palladam</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#doctors" class="nav-link">Doctors</a></li>
+          <li><a href="#services" class="nav-link">Treatments</a></li>
+          <li><a href="#calculator" class="nav-link">Savings Estimator</a></li>
+          <li><a href="#about" class="nav-link">About Clinic</a></li>
+          <li><a href="#showcase-slider" class="nav-link">Clinic Tour</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary" onclick="openBookingModal()">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </button>
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. Home / Hero Section with Background Video Slideshow -->
+  <section class="hero" id="home">
+    <div class="hero-bg-slider" id="heroBgSlider">
+      <div class="hero-bg-slide active" style="background-image: url('slide1.jpg');"></div>
+      <div class="hero-bg-slide" style="background-image: url('slide2.jpg');"></div>
+      <div class="hero-bg-slide" style="background-image: url('slide5.jpg');"></div>
+      <div class="hero-bg-slide" style="background-image: url('dr_rajeshwari.jpg'); background-position: center 16%;"></div>
+      <div class="hero-bg-overlay"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-star"></i> 4.9 Rating (597+ Verified Patient Reviews)
+        </div>
+        <h1 class="hero-title">
+          Pain-Free, World-Class <span>Dental Care</span> in Palladam
+        </h1>
+        <p class="hero-subtitle">
+          Serving families with trust since 2001. Specialized in painless single-visit Root Canals (RCT), expert Wisdom Tooth Extractions, and full smile restorations at honest prices.
+        </p>
+        <div class="hero-cta">
+          <button class="btn btn-primary btn-lg" onclick="openBookingModal()">
+            <i class="fa-regular fa-calendar-check"></i> Schedule Visit Now
+          </button>
+          <a href="tel:9865521717" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-phone"></i> Call +91 98655 21717
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>25+</h3>
+            <p>Years of Trust</p>
+          </div>
+          <div class="stat-item">
+            <h3>4.9★</h3>
+            <p>597+ Reviews</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Painless Care</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Highlights Bar -->
+  <section class="highlights-bar">
+    <div class="container">
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fa-solid fa-tooth"></i>
+          </div>
+          <div class="highlight-content">
+            <h4>Painless RCT (Root Canal)</h4>
+            <p>Micro-endodontic single-sitting root canals to save natural teeth.</p>
+          </div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fa-solid fa-scissors"></i>
+          </div>
+          <div class="highlight-content">
+            <h4>Wisdom Tooth Extraction</h4>
+            <p>Gentle oral surgical extraction with fast, smooth recovery.</p>
+          </div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <div class="highlight-content">
+            <h4>Bleeding Gums Therapy</h4>
+            <p>Periodontal ultrasonic scaling & gum restoration.</p>
+          </div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">
+            <i class="fa-solid fa-tag"></i>
+          </div>
+          <div class="highlight-content">
+            <h4>Honest & Fair Pricing</h4>
+            <p>Up to 50% lower treatment cost than metro hospitals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. Doctors Section -->
+  <section class="doctors-section" id="doctors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Expert Medical Team</span>
+        <h2 class="section-title">Meet Our Lead Dentists</h2>
+        <p class="section-subtitle">Dedicated specialists delivering compassionate, high-precision dental treatments.</p>
+      </div>
+
+      <div class="doctors-grid" id="doctorsGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Treatments Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Comprehensive Dental Care</span>
+        <h2 class="section-title">Treatments & Specializations</h2>
+        <p class="section-subtitle">Delivering high-precision procedures with modern equipment and compassionate care.</p>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+        <!-- Rendered dynamically via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Savings Estimator Section -->
+  <section class="container" id="calculator">
+    <div class="calculator-section">
+      <div class="container">
+        <div class="calculator-grid">
+          <div class="calculator-info">
+            <h2>Compare & Save Up To 50% On Dental Care</h2>
+            <p>
+              Why pay exorbitant rates in Coimbatore metro clinics when you can receive top-tier treatment by experienced specialists right here in Palladam?
+            </p>
+            <ul class="calculator-features">
+              <li><i class="fa-solid fa-circle-check"></i> Same high-grade imported dental materials & sterilizers</li>
+              <li><i class="fa-solid fa-circle-check"></i> Experienced specialists (20+ years expertise)</li>
+              <li><i class="fa-solid fa-circle-check"></i> Transparent pricing with no hidden charges</li>
+            </ul>
+          </div>
+
+          <div class="calculator-box">
+            <div class="form-group">
+              <label for="calcServiceSelect">Select Proposed Treatment:</label>
+              <select id="calcServiceSelect" class="form-select">
+                <!-- Populated via JS -->
+              </select>
+            </div>
+
+            <div class="savings-result">
+              <p>Estimated Cost at N S E Dental Hospital:</p>
+              <div class="savings-amount" id="calcNseCost">₹3,000</div>
+              <p style="margin-top: 0.5rem; color: #94a3b8;">Average Metro Hospital Cost: <span id="calcMetroCost" style="text-decoration: line-through; color: #f87171;">₹8,000</span></p>
+              <p style="color: #34d399; font-weight: 700; margin-top: 0.25rem;">You Save Approx: <span id="calcSavings">₹5,000</span></p>
+            </div>
+
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1.25rem;" onclick="openBookingModal()">
+              <i class="fa-regular fa-calendar-check"></i> Book This Treatment
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. About Clinic Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img">
+            <img src="https://images.jdmagicbox.com/comp/palladam/t1/9999px421.x421.131010205406.l2t1/catalogue/n-s-e-dental-hospital-palladam-tirupur-palladam-dental-hospitals-h0y95k80sh.jpg" alt="NSE Reception">
+          </div>
+          <div class="about-img">
+            <img src="https://images.jdmagicbox.com/comp/palladam/t1/9999px421.x421.131010205406.l2t1/catalogue/n-s-e-dental-hospital-palladam-tirupur-palladam-dental-hospitals-d07a7mf226.jpg" alt="Dental Operatory">
+          </div>
+          <div class="about-img large">
+            <img src="https://images.jdmagicbox.com/comp/palladam/t1/9999px421.x421.131010205406.l2t1/catalogue/n-s-e-dental-hospital-palladam-tirupur-palladam-dental-hospitals-i28peg3ynu.jpg" alt="Patient Lounge">
+          </div>
+          <div class="about-experience-badge">
+            <strong>25</strong>
+            <span>Years Active</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">About N S E Dental Hospital</span>
+          <h2>A Beacon of Dental Excellence in Palladam Since 2001</h2>
+          <p>
+            When it comes to oral health, finding the right dental care provider is crucial. <strong>N S E Dental Hospital</strong> stands as a premier dental care facility in Palladam, offering a comprehensive array of specialized treatments with compassion, precision, and modern technology.
+          </p>
+          <p>
+            Serving families with trust since 2001, our clinic combines painless treatment techniques, imported sterile equipment, and honest pricing—saving patients up to 50% compared to metro hospitals. From painless single-sitting Root Canals (RCT) to complex wisdom tooth surgeries, our warm staff ensures every visit is comfortable and stress-free.
+          </p>
+
+          <ul class="about-checklist">
+            <li><i class="fa-solid fa-circle-check" style="color:var(--primary);"></i> Welcoming New Patients Daily</li>
+            <li><i class="fa-solid fa-circle-check" style="color:var(--primary);"></i> Pain-Free Anesthesia & Care</li>
+            <li><i class="fa-solid fa-circle-check" style="color:var(--primary);"></i> Wheelchair Access & Washroom</li>
+            <li><i class="fa-solid fa-circle-check" style="color:var(--primary);"></i> Strict Autoclave Sterilization</li>
+          </ul>
+
+          <button class="btn btn-primary" onclick="openBookingModal()">
+            <i class="fa-solid fa-user-doctor"></i> Consult Our Specialists
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Clinic Tour Section -->
+  <section class="marquee-slider-section" id="showcase-slider">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 2rem;">
+        <span class="section-tag">Virtual Gallery</span>
+        <h2 class="section-title">Our Clinic Tour</h2>
+        <p class="section-subtitle">Take an automated visual walkthrough of N S E Dental Hospital's modern facilities, treatment operatories, and reception area.</p>
+      </div>
+    </div>
+    
+    <div class="marquee-container">
+      <div class="marquee-track" id="marqueeTrack">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Reviews Section -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Testimonials</span>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-subtitle">Real experiences from patients who trust N S E Dental Hospital for their smiles.</p>
+      </div>
+
+      <div class="reviews-summary">
+        <div class="rating-big">
+          <div class="rating-number">4.9</div>
+          <div>
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-count">Based on 597+ Verified JustDial Ratings</div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+          <span class="review-tag"><i class="fa-solid fa-circle-check"></i> 100% Verified Care</span>
+          <span class="review-tag"><i class="fa-solid fa-shield"></i> Transparent Fees</span>
+          <span class="review-tag"><i class="fa-solid fa-heart"></i> Painless RCT</span>
+        </div>
+      </div>
+
+      <div class="reviews-grid" id="reviewsGrid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faqs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Queries</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know before visiting N S E Dental Hospital.</p>
+      </div>
+
+      <div class="faq-container" id="faqContainer">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Details & Hours</h3>
+          
+          <div class="contact-info-list">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-item-text">
+                <h4>Hospital Location</h4>
+                <p>Nanna Sahib Street, Near Opposite to Angalamman Kovil, Palladam, Tamil Nadu 641664</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-item-text">
+                <h4>Phone Appointments & WhatsApp</h4>
+                <div style="display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap; margin-top:0.35rem;">
+                  <a href="tel:9865521717" style="color:var(--primary); font-weight:700; text-decoration:none; font-size:1rem;">
+                    +91 98655 21717
+                  </a>
+                  <a href="https://wa.me/919865521717?text=Hi%20NSE%20Dental%20Hospital,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" style="color:#25d366; font-weight:700; text-decoration:none; display:inline-flex; align-items:center; gap:0.35rem; background:rgba(37,211,102,0.12); padding:0.3rem 0.75rem; border-radius:20px; font-size:0.88rem; border:1px solid rgba(37,211,102,0.3);">
+                    <i class="fa-brands fa-whatsapp" style="font-size:1.1rem;"></i> Chat on WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-item-text">
+                <h4>Working Hours</h4>
+                <table class="hours-table">
+                  <tr><td>Mon - Sat</td><td>8:45 AM - 7:00 PM</td></tr>
+                  <tr><td>Sunday</td><td style="color:#ef4444;">Closed</td></tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-wallet"></i>
+              </div>
+              <div class="contact-item-text">
+                <h4>Accepted Payment Modes</h4>
+                <p>Visa / MasterCard / RuPay, GPay / PhonePe UPI, Cash, Cheque</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" style="width:100%;" onclick="openBookingModal()">
+            <i class="fa-regular fa-calendar-check"></i> Book An Appointment
+          </button>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe 
+            class="map-frame" 
+            src="https://maps.google.com/maps?q=10.9949429,77.2814034&z=16&output=embed" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+          <div class="map-footer">
+            <div>
+              <strong style="color:var(--secondary); font-size:0.95rem;">N S E Dental Hospital</strong>
+              <p style="font-size:0.8rem; color:var(--text-muted);">Lat: 10.9949, Lng: 77.2814</p>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=10.9949429,77.2814034" target="_blank" class="btn btn-outline btn-sm">
+              <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo" style="margin-bottom:1rem;">
+            <div class="logo-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div class="logo-text">
+              <h1 style="color:white;">N S E Dental</h1>
+              <span style="color:var(--primary-light);">Hospital • Palladam</span>
+            </div>
+          </div>
+          <p>Providing compassionate, affordable, and painless dental healthcare to the Palladam & Tirupur community since 2001.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#services">Treatments</a></li>
+            <li><a href="#calculator">Savings Estimator</a></li>
+            <li><a href="#about">About Clinic</a></li>
+            <li><a href="#showcase-slider">Clinic Tour</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Treatments</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Root Canal Treatment (RCT)</a></li>
+            <li><a href="#services">Wisdom Tooth Extraction</a></li>
+            <li><a href="#services">Bleeding Gums Therapy</a></li>
+            <li><a href="#services">Teeth Cleaning & Whitening</a></li>
+            <li><a href="#services">Crowns & Bridges</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Need Assistance?</h4>
+          <p>Call our reception helpline for immediate appointment scheduling:</p>
+          <a href="tel:9865521717" class="btn btn-primary" style="width:100%; margin-bottom:1rem;">
+            <i class="fa-solid fa-phone"></i> +91 98655 21717
+          </a>
+          <a href="https://wa.me/919865521717?text=Hi%20NSE%20Dental%20Hospital,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="btn btn-outline" style="width:100%; color:white; border-color:white;">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 N S E Dental Hospital. All Rights Reserved. Palladam, Tamil Nadu.</p>
+        <p>Wheelchair Accessible Facility • Est. 2001</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 9. Appointment Booking Modal -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3><i class="fa-regular fa-calendar-check" style="color:var(--primary);"></i> Book Dental Appointment</h3>
+        <button class="modal-close" onclick="closeBookingModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="bookingForm">
+          <div class="form-group">
+            <label for="patientName">Full Name *</label>
+            <input type="text" id="patientName" class="form-input" placeholder="e.g. Ramesh Kumar" required>
+          </div>
+
+          <div class="form-group">
+            <label for="patientPhone">Phone Number *</label>
+            <input type="tel" id="patientPhone" class="form-input" placeholder="e.g. 98655XXXXX" required>
+          </div>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
+            <div class="form-group">
+              <label for="treatmentSelect">Treatment Required *</label>
+              <select id="treatmentSelect" class="form-select" required>
+                <option value="Root Canal Treatment (RCT)">Root Canal (RCT)</option>
+                <option value="Wisdom Tooth Extraction">Wisdom Tooth Extraction</option>
+                <option value="Bleeding Gums / Gum Care">Bleeding Gums Treatment</option>
+                <option value="General Consultation">General Dental Checkup</option>
+                <option value="Teeth Cleaning">Teeth Cleaning & Whitening</option>
+                <option value="Crowns & Bridges">Dental Crowns / Bridges</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="doctorSelect">Preferred Doctor</label>
+              <select id="doctorSelect" class="form-select">
+                <option value="Any Available Specialist">Any Specialist</option>
+                <option value="Dr. Sathyamurthy">Dr. Sathyamurthy</option>
+                <option value="Dr. S. Rajeshwari">Dr. S. Rajeshwari</option>
+              </select>
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1rem;">
+            <div class="form-group">
+              <label for="bookingDate">Preferred Date *</label>
+              <input type="date" id="bookingDate" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingTime">Preferred Time Slot *</label>
+              <select id="bookingTime" class="form-select" required>
+                <option value="Morning (9:00 AM - 12:00 PM)">Morning (9 AM - 12 PM)</option>
+                <option value="Afternoon (12:00 PM - 4:00 PM)">Afternoon (12 PM - 4 PM)</option>
+                <option value="Evening (4:00 PM - 7:00 PM)">Evening (4 PM - 7 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="patientNotes">Additional Notes / Symptoms (Optional)</label>
+            <textarea id="patientNotes" class="form-input" rows="2" placeholder="Describe your dental discomfort or question..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%; padding:0.9rem;">
+            <i class="fa-solid fa-paper-plane"></i> Confirm & Send Booking
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Photo Modal -->
+  <div class="modal-overlay" id="lightboxModal">
+    <div class="modal-card lightbox-card">
+      <button class="modal-close" style="position:absolute; top:-40px; right:0; color:white;" onclick="closeLightboxModal()">&times;</button>
+      <img src="" id="lightboxImg" alt="Clinic Photo Enlarge">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Mobile Floating Action Bar -->
+  <div class="mobile-floating-bar">
+    <div class="mobile-floating-flex">
+      <a href="tel:9865521717" class="btn btn-secondary">
+        <i class="fa-solid fa-phone"></i> Call Clinic
+      </a>
+      <button class="btn btn-primary" onclick="openBookingModal()">
+        <i class="fa-regular fa-calendar-check"></i> Book Now
+      </button>
+      <a href="https://wa.me/919865521717" target="_blank" class="btn btn-outline" style="background:#25d366; color:white; border:none;">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Load Data JS and Application Logic JS -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
